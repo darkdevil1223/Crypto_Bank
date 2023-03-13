@@ -1,0 +1,170 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.pageHeading
+{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.container
+{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.cardTitle
+{
+    position: absolute;
+    top: 48px;
+    left: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 59px;
+}
+
+.balance
+{
+    position: absolute;
+    top: 205px;
+    left: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.money
+{
+    position: absolute;
+    top: 248px;
+    left: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 59px;
+}
+
+.account
+{
+    position: absolute;
+    top: 323px;
+    left: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.accountNo
+{
+    position: absolute;
+    top: 366px;
+    left: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.selected
+{
+    position: absolute;
+    bottom: 44px;
+    right: 48px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.btnSection 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.btnWithdraw 
+{
+    cursor: pointer;
+
+    /* Font Style */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color:#D9D9D9;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: #252525;
+    padding: 15px 30px;
+
+    /* Border */
+    /* border: 2px solid; */
+    border-radius: 24px;
+    border-color: #0E0B20;
+
+    transition: all 0.2s ease-out;
+}
+
+.btnWithdraw:hover 
+{
+    box-shadow: 0px 77px 31px rgba(0, 0, 0, 0.01), 0px 44px 26px rgba(0, 0, 0, 0.05), 0px 19px 19px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btnDeposit
+{
+    cursor: pointer;
+
+    /* Font Style */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color:#252525;
+    text-align: center;
+    text-decoration: none;
+
+    /* background-color: #252525; */
+    padding: 15px 30px;
+
+    /* Border */
+    border: 2px solid;
+    border-radius: 24px;
+    border-color: #252525;
+
+    transition: all 0.2s ease-out;
+}
+
+.btnDeposit:hover 
+{
+    box-shadow: 0px 77px 31px rgba(0, 0, 0, 0.01), 0px 44px 26px rgba(0, 0, 0, 0.05), 0px 19px 19px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
