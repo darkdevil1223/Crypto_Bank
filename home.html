@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<body>
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
 
             <!-- Balance -->
             <div class="balance">Balance</div>
-            <div class="money">0</div>
+            <div class="money" id="balance">0</div>
 
             <!-- Account -->
             <div class="account">Account</div>
@@ -33,5 +33,9 @@
             <a href="withdraw.html"><button class="btnWithdraw">Withdraw</button></a>
             <a href="deposit.html"><button class="btnDeposit">Deposit</button></a>
         </div>
+        <script src = "https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <script src="addfetch.js"></script>
     </body>
-</body>
+</html>
