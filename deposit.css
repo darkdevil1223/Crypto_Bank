@@ -1,0 +1,80 @@
+body{
+    background: #D9D9D9;
+}
+.container{
+    /* other base style */
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-content: center;
+    transform: translateY(50%);
+}
+.container .heading{
+    text-align: center;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    color: #D9D9D9;
+    width: 500px;
+    height: 300px;
+    /* Secondary */
+    background: #252525;
+    border-radius: 24px;
+}
+
+.card input, p{
+    margin-left: 20px;
+}
+
+p{
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Heebo";
+} 
+.amount{
+    font-size: large;
+    font-weight: 500;
+}
+
+.card input{
+    gap: 24px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    background: #D9D9D9;
+    border-color: transparent;
+}
+
+.card input:hover{
+    transition: all 0.5s ease-in-out;
+    background: white;
+}
+
+.card button{
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 40px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* Primary */
+
+    color: #D9D9D9;
+    background: #5462E0;
+    border-radius: 20px;
+    border-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 100px 28px rgba(0, 0, 0, 0.01), 0px 64px 25px rgba(0, 0, 0, 0.05), 0px 36px 22px rgba(0, 0, 0, 0.18), 0px 16px 16px rgba(0, 0, 0, 0.3), 0px 4px 9px rgba(0, 0, 0, 0.34), 0px 0px 0px rgba(0, 0, 0, 0.35);
+
+}
